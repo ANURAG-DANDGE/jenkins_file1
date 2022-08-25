@@ -21,7 +21,7 @@ stages {
 	}
 		stage('restart-httpd'){
 		steps {
-		sh 'service httpd start'
+		sh 'service httpd restart'
 	}
 	}
 }
